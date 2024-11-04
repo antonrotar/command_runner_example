@@ -13,7 +13,7 @@ if "$script_directory/../02_failing_example.sh"; then
 fi
 
 if ! "$script_directory/../03_example_with_specific_expectation.sh"; then
-  echo "Example should fail but passes."
+  echo "Example should pass but fails."
   exit 1
 fi
 
