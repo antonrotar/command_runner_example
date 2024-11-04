@@ -7,4 +7,9 @@ if ! "$script_directory/../01_simple_example.sh"; then
   exit 1
 fi
 
+if "$script_directory/../02_failing_example.sh"; then
+  echo "Example should fail but passes."
+  exit 1
+fi
+
 echo "All tests passed."
