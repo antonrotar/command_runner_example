@@ -1,3 +1,5 @@
+set -euo pipefail
+
 # This example adds and runs two passing commands.
 # The overall return value will be positive.
 

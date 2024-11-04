@@ -1,3 +1,5 @@
+set -euo pipefail
+
 # This test executes all tests and verifies overall repository status.
 
 script_directory="$(dirname "$0")"
