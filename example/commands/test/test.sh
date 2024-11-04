@@ -1,3 +1,5 @@
+set -euo pipefail
+
 # This test verifies the execution of commands.
 
 script_directory="$(dirname "$0")"

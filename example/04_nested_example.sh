@@ -1,3 +1,5 @@
+set -euo pipefail
+
 # This example adds and runs multiple examples. One of them will fail.
 # The overall return value will be negative.
 
