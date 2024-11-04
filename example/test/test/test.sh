@@ -1,3 +1,5 @@
+# A smoke test that verifies the execution of test scripts.
+
 script_directory="$(dirname "$0")"
 
 if ! "$script_directory/../passing_test.sh"; then
