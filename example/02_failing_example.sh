@@ -1,5 +1,5 @@
-# This example adds and runs two passing commands.
-# The overall return value will be positive.
+# This example adds and runs one failing and one passing command.
+# The overall return value will be negative.
 
 script_directory="$(dirname "$0")"
 source "$script_directory/../command_runner/command_runner.sh"

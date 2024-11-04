@@ -1,4 +1,4 @@
-# This example adds and runs two passing commands.
+# This example adds and runs one failing command with specific expectation.
 # The overall return value will be positive.
 
 script_directory="$(dirname "$0")"
