@@ -11,3 +11,5 @@ if "$script_directory/../failing_command.sh"; then
   echo "Test should fail but passes."
   exit 1
 fi
+
+echo "All tests passed."
