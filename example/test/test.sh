@@ -17,4 +17,9 @@ if ! "$script_directory/../03_example_with_specific_expectation.sh"; then
   exit 1
 fi
 
+if "$script_directory/../04_nested_example.sh"; then
+  echo "Example should fail but passes."
+  exit 1
+fi
+
 echo "All tests passed."
