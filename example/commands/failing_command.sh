@@ -3,4 +3,4 @@
 
 echo "This is a failing command."
 
-exit 1
+exit 42
