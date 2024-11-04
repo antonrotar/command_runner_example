@@ -1,4 +1,4 @@
-# A smoke test that verifies the execution of test scripts.
+# This test verifies the execution of test scripts.
 
 script_directory="$(dirname "$0")"
 
